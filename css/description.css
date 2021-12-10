@@ -1,0 +1,128 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.head {
+    display: inline-block;
+    width: 100%;
+    background: #14A697;
+    text-align: center;
+}
+
+.head h1 {
+    font-weight: 100;
+    /*for changing font weight of header*/
+    font-size: 40px;
+    /*for changing font size*/
+}
+
+.nav {
+    width: 100%;
+    height: 7vh;
+    background: #FF8C00;
+}
+
+.nav a {
+    float: left;
+    width: 33%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav a:hover {
+    background:#F2C12E;
+    font-weight: bolder;
+}
+.description{
+    width:100%;
+    height:80vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pic,.points{
+    display:inline-block;
+    width:49.8%;
+    height:65%;
+    margin:0;
+}
+.image{
+    width:60%;
+    display:block;
+    margin:50px auto;
+    border-radius: 30px;
+    border:5px solid black;
+}
+.points h2{
+    text-align: center;
+}
+.points ul{
+    display: block;
+    width:80%;
+    margin:auto;
+    height: 70%;
+}
+.details{
+    width:100%;
+    height: fit-content;
+    padding: 0 20px 0 20px;
+}
+
+.details h2{
+    text-align: center;
+}
+.details p{
+    font-size: 18px;
+    text-align: justify;
+}
+.list{
+    background: url('../images/Background.png');
+    background-size: cover;
+    background-position-y: center;
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    margin-top:50px;    /* this value must me changed if the paragraph in details is less or more */
+}
+.topichead{
+    background: rgba(111, 157, 255, 0.589);
+    margin:0;
+    display:flex;
+    width:100%;
+    height:20%;
+    align-items: center;
+    justify-content: center;
+}
+.place{
+    background: rgb(0, 204, 255);
+    color: rgb(85, 63, 63);
+    width:max-content;
+    font-size: 20px;
+    height: 25vh;
+    border: 5px solid black;
+    border-radius: 30px 30px 30px 30px;
+}
+.placeimg{
+    height: 80%;
+    border-radius: 20px 20px 0 0;
+}
+.placelink{
+    width: max-content;
+    display: inline-block;
+    margin:15px;
+    text-decoration: none;
+    color: black;
+}
+.placename{
+    height: 20%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
